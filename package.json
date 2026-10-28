@@ -1,0 +1,27 @@
+{
+  "name": "paseo-windows-file-links",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Fix Windows file links with an extra slash before the drive letter in AI replies.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/frowang-ai/paseo-windows-file-links.git"
+  },
+  "files": ["paseo-plugin.json", "index.client.tsx", "client/", "OVERVIEW.md", "README.md", "LICENSE"],
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "micromark": "^4.0.2"
+  },
+  "devDependencies": {
+    "@getpaseo/plugin": "0.13.2",
+    "@types/react": "~19.2.0",
+    "react": "19.1.0",
+    "react-native": "0.81.5",
+    "typescript": "^5.9.3",
+    "zod": "^4.4.3"
+  }
+}
