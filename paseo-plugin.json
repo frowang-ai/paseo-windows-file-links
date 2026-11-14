@@ -2,6 +2,6 @@
   "id": "windows-file-links",
   "name": "Windows File Link Fix",
   "description": "Fix Windows file links with an extra slash before the drive letter in AI replies.",
-  "requirements": { "paseo": ">=0.13.2 <0.14.0" },
+  "requirements": { "paseo": ">=0.13.2" },
   "build": [["npm", "ci", "--omit=dev", "--ignore-scripts"]]
 }

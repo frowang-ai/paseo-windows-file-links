@@ -9,7 +9,14 @@
     "type": "git",
     "url": "https://github.com/frowang-ai/paseo-windows-file-links.git"
   },
-  "files": ["paseo-plugin.json", "index.client.tsx", "client/", "OVERVIEW.md", "README.md", "LICENSE"],
+  "files": [
+    "paseo-plugin.json",
+    "index.client.tsx",
+    "client/",
+    "OVERVIEW.md",
+    "README.md",
+    "LICENSE"
+  ],
   "scripts": {
     "typecheck": "tsc --noEmit"
   },
@@ -17,7 +24,7 @@
     "micromark": "^4.0.2"
   },
   "devDependencies": {
-    "@getpaseo/plugin": "0.13.2",
+    "@getpaseo/plugin": "0.14.0",
     "@types/react": "~19.2.0",
     "react": "19.1.0",
     "react-native": "0.81.5",
